@@ -1,8 +1,138 @@
 * {
-
+    font-family: 'Lucida Sans';
 }
 
-header {
+
+.nav1{
     background-color: grey;
-    height: 8vh;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav1 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+.nav1 li{
+    margin-left: 8px;
+}
+.nav1 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-left: 240px;
+}
+.nav1 li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.principal {
+    display: block;
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+
+
+
+
+
+.nav2{
+    background-color: grey;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+.nav2 li{
+    margin-left: 8px;
+}
+.nav2 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-left: 240px;
+}
+.nav2 li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.contatos {
+    display: block;
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+.nav3{
+    background-color: grey;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav3 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+.nav3 li{
+    margin-left: 8px;
+}
+.nav3 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-left: 240px;
+}
+.nav3 li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.mensagens {
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.msg {
+    display: block;
+    color: rgb(255, 0, 43);
+    height: 600px;
+    width: 700px;
 }
