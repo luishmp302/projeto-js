@@ -1,138 +1,42 @@
 * {
-    font-family: 'Lucida Sans';
+    font-family: sans-serif;
 }
 
+body {
+    margin: 0px;
+}
 
-.nav1{
-    background-color: grey;
-    padding: 10px 60px;
+header nav {
+    height: 75px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    text-transform: uppercase;
 }
 
-.nav1 ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    padding: 10px;
+header nav p {
+    padding-top: 11px;
 }
-.nav1 li{
-    margin-left: 8px;
-}
-.nav1 li a{
+
+
+header a {
     text-decoration: none;
     color: white;
-    font-size: 26px;
-    font-weight: 500;
-    padding: 8px 15px;
-    border-radius: 5px;
-    transition: 0.3s;
-    margin-left: 240px;
-}
-.nav1 li a:hover{
-    background-color: white;
-    color: black;
 }
 
-.principal {
-    display: block;
+main {
     text-align: center;
-    margin-top: 200px;
+    height: 738px;
 }
 
-
-
-
-
-
-
-.nav2{
-    background-color: grey;
-    padding: 10px 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav2 ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    padding: 10px;
-}
-.nav2 li{
-    margin-left: 8px;
-}
-.nav2 li a{
-    text-decoration: none;
+footer {
     color: white;
-    font-size: 26px;
-    font-weight: 500;
-    padding: 8px 15px;
-    border-radius: 5px;
-    transition: 0.3s;
-    margin-left: 240px;
-}
-.nav2 li a:hover{
-    background-color: white;
-    color: black;
-}
-
-.contatos {
-    display: block;
-    text-align: center;
-    margin-top: 200px;
-}
-
-
-
-
-
-
-
-
-.nav3{
-    background-color: grey;
-    padding: 10px 60px;
+    height: 75px;
+    background-color: black;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
 }
 
-.nav3 ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    padding: 10px;
-}
-.nav3 li{
-    margin-left: 8px;
-}
-.nav3 li a{
-    text-decoration: none;
-    color: white;
-    font-size: 26px;
-    font-weight: 500;
-    padding: 8px 15px;
-    border-radius: 5px;
-    transition: 0.3s;
-    margin-left: 240px;
-}
-.nav3 li a:hover{
-    background-color: white;
-    color: black;
-}
-
-.mensagens {
-    display: block;
-    text-align: center;
-    margin-top: 70px;
-}
-
-.msg {
-    display: block;
-    color: rgb(255, 0, 43);
-    height: 600px;
-    width: 700px;
+#marca {
+    font-style: italic;
 }
